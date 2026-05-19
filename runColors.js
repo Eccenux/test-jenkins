@@ -22,7 +22,8 @@ async function run() {
 	}
 
 	for (const domain of domains) {
-		console.log(color('[Checked]', 'green') + `: [${domain}]... ` + color('[fail]', 'red'));
+		//console.log(color('[Checked]', 'green') + `: [${domain}]... ` + color('[fail]', 'red'));
+        console.log(color('[Checked]', 'green') + `: [${domain}]...`);
 
 		await new Promise(resolve => setTimeout(resolve, 1000));
 	}
